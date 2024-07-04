@@ -21,5 +21,17 @@
 go.work
 
 ## 示例代码
+.DS_Store
+
 nomad
 data/
+nomad_cluster/
+tools/
+learn-consul-docker/
+learn-nomad/
+nomad-ci/
+nomadev/
+ops-lab/
+terraform-google-nomad/
+cluster/
+nomad-cluster/
