@@ -22,6 +22,8 @@ go.work
 
 ## 示例代码
 .DS_Store
+TODO.md
+r_sc_test.py
 
 nomad
 data/
