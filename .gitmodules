@@ -1,0 +1,3 @@
+[submodule "nomad-ov/docker/omicverse"]
+	path = nomad-ov/docker/omicverse
+	url = https://github.com/Starlitnightly/omicverse.git

@@ -35,5 +35,5 @@ nomad-ci/
 nomadev/
 ops-lab/
 terraform-google-nomad/
-cluster/
+cluster_test/
 nomad-cluster/
