@@ -37,3 +37,4 @@ ops-lab/
 terraform-google-nomad/
 cluster_test/
 nomad-cluster/
+nomad-zero-to-wow/
