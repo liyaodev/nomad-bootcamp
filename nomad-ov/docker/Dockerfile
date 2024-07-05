@@ -44,12 +44,15 @@ RUN pip install --no-cache-dir \
 WORKDIR /app
 
 COPY ./ov_test.py /app
+COPY ./start.sh /app/start.sh
+
+RUN chmod +x /app/start.sh
 
 # ENV Config
 ENV PYTHONUNBUFFERED 1
+ENV JUPYTER_ALLOW_INSECURE_WRITES 1
 
 # Define default command.
-# CMD ["/bin/sh", "-c", "cd /app && tail -f /dev/null"]
-# CMD ["/app/start.sh"]
-CMD ["/bin/bash"]
-# CMD ["jupyter-lab"]
+# CMD ["/bin/bash"]
+CMD ["/app/start.sh"]
+
