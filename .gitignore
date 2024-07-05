@@ -24,6 +24,7 @@ go.work
 .DS_Store
 TODO.md
 r_sc_test.py
+.bash_history
 
 nomad
 data/
@@ -38,3 +39,6 @@ terraform-google-nomad/
 cluster_test/
 nomad-cluster/
 nomad-zero-to-wow/
+.ipython/
+.jupyter/
+.local/
